@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Primary
-@Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+
 public class CricketCoach implements Coach {
 
     public  CricketCoach(){
