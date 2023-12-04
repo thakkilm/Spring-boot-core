@@ -11,7 +11,10 @@ public class DemoController {
 
     private Coach myCoach;
     @Autowired
-    public DemoController(@Qualifier("tennisCoach") Coach myCoach){
+//    public DemoController(@Qualifier("tennisCoach") Coach myCoach){
+//        this.myCoach=myCoach;
+//    }
+    public DemoController( Coach myCoach){
         this.myCoach=myCoach;
     }
     @GetMapping("/daily-workout")
